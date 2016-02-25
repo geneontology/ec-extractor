@@ -6,6 +6,10 @@ Extracts an entry from KEGG and writes a new GO stanza
 
     python3 add-ec-to-go.py ec:2.6.1.86 ec:2.6.1.87
 
+This assumes the gene_ontology_write.obo file is in the same directory. To explicitly state the path:
+
+    python3 add-ec-to-go.py -i ~/repos/go/ontology/gene_ontology_write.obo ec:2.6.1.86 ec:2.6.1.87
+
 Generates output:
 
 ```
