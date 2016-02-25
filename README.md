@@ -13,9 +13,9 @@ Generates output:
 id: 
 name: 2-amino-4-deoxychorismate synthase activity
 def: "Catalysis of the reaction: (2S)-2-amino-4-deoxychorismate + L-glutamate = chorismate + L-glutamine [RN:R08956]" [EC:2.6.1.86]
-synonym: "ADIC synthase" EXACT [EC:2.6.1.86]
-synonym: "2-amino-2-deoxyisochorismate synthase" EXACT [EC:2.6.1.86]
-synonym: "SgcD" EXACT [EC:2.6.1.86]
+synonym: "ADIC synthase activity" EXACT [EC:2.6.1.86]
+synonym: "2-amino-2-deoxyisochorismate synthase activity" EXACT [EC:2.6.1.86]
+synonym: "SgcD activity" EXACT [EC:2.6.1.86]
 is_a: GO:0008483 ! transaminase activity
 ```
 

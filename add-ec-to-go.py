@@ -83,7 +83,7 @@ def write_obo(record):
     print('name: %s activity' % name)
     print('def: "Catalysis of the reaction: %s" [EC:%s]' % (record.reaction[0], entry))
     for s in syns:
-        print('synonym: "%s" EXACT [EC:%s]' % (s, entry))
+        print('synonym: "%s activity" EXACT [EC:%s]' % (s, entry))
     if parent_entry in ec2go:
         pid = ec2go[parent_entry]
         pname = go2label[pid]
